@@ -3,7 +3,7 @@ import React from 'react';
 function App(): React.ReactElement {
     return (
         <div className="App">
-            <h1>App.tsx</h1>
+            <h1>First commit</h1>
         </div>
     );
 }

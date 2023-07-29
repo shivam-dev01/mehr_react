@@ -3,4 +3,3 @@
 
 npm test
 yarn lint-staged && yarn test:ci
-npm test
