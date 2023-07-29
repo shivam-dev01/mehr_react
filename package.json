@@ -57,7 +57,6 @@
         "pinst": "^3.0.0",
         "prettier": "3.0.0"
     },
-    "test:ci": "CI=true react-scripts test",
     "lint-staged": {
         ".{js,ts,tsx}": [
             "eslint --quiet --cache --fix"
