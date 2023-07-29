@@ -4,6 +4,6 @@ import App from './App';
 
 test('renders learn react link', () => {
     render(<App />);
-    const linkElement = screen.getByText('First commit');
+    const linkElement = screen.getAllByText('First commit')[0];
     expect(linkElement).toBeInTheDocument();
 });
