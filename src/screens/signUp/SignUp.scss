@@ -1,0 +1,19 @@
+.SignUpBody {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    flex: 1;
+
+    & > div {
+        width: 60%;
+        height: 100%;
+    }
+
+    & > div:nth-of-type(2) {
+        width: 40%;
+        height: 100%;
+        border-radius: 50px 0 0 50px;
+        background-image: linear-gradient(140deg, var(--red50) 10%, var(--yellow50));
+        padding: 0px 75px 0px 75px;
+    }
+}

@@ -1,11 +1,11 @@
 import React from 'react';
+import './App.scss';
+import SignUp from './screens/signUp/SignUp';
 
 function App(): React.ReactElement {
     return (
         <div className="App">
-            <h1>First commit</h1>
-            <h1>First commit</h1>
-            <h1>First commit</h1>
+            <SignUp />
         </div>
     );
 }
