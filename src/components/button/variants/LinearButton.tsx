@@ -1,11 +1,11 @@
 import React from 'react';
-import type { ButtonProps } from '../type';
 import '../Button.scss';
+import type { ButtonProps } from '../type';
 
 const LinearButton = (props: ButtonProps): React.ReactElement => {
     return (
         <div className="linearButtonBody">
-            <button>{props.text}</button>
+            <button onClick={props.onClick}>{props.text}</button>
         </div>
     );
 };
